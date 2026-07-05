@@ -7,7 +7,7 @@ print("🤖 Welcome to the Order Chatbot!")
 print("Type 'exit' to quit.\n")
 
 while True:
-    user = input("You: ").lower()
+    user = input("You: ").strip().lower()
 
     if user in ["hi", "hello", "hey"]:
         print("🤖 Hello! Ask me about the dataset.")
