@@ -1,0 +1,3 @@
+the packages are should install to run the project
+pandas library
+the database of the code
